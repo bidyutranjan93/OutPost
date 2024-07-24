@@ -53,8 +53,7 @@ public class HomeTest extends WebTestBase {
         homePage.checkAboutUs();
         softAssert.assertEquals(aboutUsPage.getAboutUsPage(),"Our values", "Our values should be matched");
         softAssert.assertAll();
-        System.out.println("Hello");
-
+        
     }
 
     @AfterMethod
